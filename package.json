@@ -1,0 +1,20 @@
+{
+  "name": "api-automation-webdriverio-typescript",
+  "type": "module",
+  "devDependencies": {
+    "@wdio/allure-reporter": "^9.17.0",
+    "@wdio/cli": "^9.17.1",
+    "@wdio/local-runner": "^9.17.0",
+    "@wdio/mocha-framework": "^9.17.0",
+    "@wdio/spec-reporter": "^9.17.0",
+    "rimraf": "^6.0.1",
+    "wdio-wait-for": "^3.1.0"
+  },
+  "scripts": {
+    "api-tests": "rimraf allure-results allure-report && wdio run wdio.conf.ts && allure generate --clean && allure open",
+    "prettier": "npx prettier --write ."
+  },
+  "dependencies": {
+    "axios": "^1.10.0"
+  }
+}
