@@ -1,0 +1,18 @@
+{
+  "createPost": {
+    "title": "foo",
+    "body": "bar",
+    "userId": 1
+  },
+  "updatePost": {
+    "id": 1,
+    "title": "updated",
+    "body": "baz",
+    "userId": 1
+  },
+  "invalidPost": {
+    "title": "",
+    "body": "",
+    "userId": null
+  }
+}

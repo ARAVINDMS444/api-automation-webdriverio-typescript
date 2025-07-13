@@ -4,6 +4,7 @@
     "module": "ESNext",
     "target": "es2022",
     "lib": ["es2022", "dom"],
+    "allowSyntheticDefaultImports": true,
     "types": [
       "node",
       "@wdio/globals/types",
